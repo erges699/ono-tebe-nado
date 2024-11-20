@@ -1,8 +1,6 @@
 /* место для вашего кода */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    grid-template-columns: 1fr 148px 1fr;
 }
 
 .header__menu {
@@ -54,26 +52,28 @@
 }
 
 .cover__title {
-
+    letter-spacing: 0.3em;
 }
 
 .aligned-text {
-
+    display: block;
 }
 .aligned-text_center {
-
+    text-align: center;
+    line-height: 1;
 }
 
 .aligned-text_right {
-
+    text-align: right;
+    line-height: 1;
 }
 
 .letter-spacing-extended {
-
+    letter-spacing: 0.6em;
 }
 
 .no-letter-spacing {
-
+    letter-spacing: 0em;
 }
 
 .cover__description {
