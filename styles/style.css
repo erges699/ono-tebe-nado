@@ -213,7 +213,11 @@
 }
 
 .about {
-
+    min-height: 595px;
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    grid-template-areas: 
+    "logo-column about-column";
 }
 
 .about__column{
@@ -221,7 +225,14 @@
 }
 
 .about__logo{
-
+    grid-area: logo-column;
+    width: 240px;
+    height: 240px;
+    background-color: rgb(0 0 0);
+    background: url(../images/logo-white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
 }
 
 .about__logo-image{
