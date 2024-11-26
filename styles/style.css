@@ -214,37 +214,55 @@
 
 .about {
     min-height: 595px;
-    display: grid;
-    grid-template-columns: 240px 1fr;
-    grid-template-areas: 
-    "logo-column about-column";
+    padding: 0 24px 180px 24px;
+    /*justify-content: center;
+    align-content: center;*/
 }
 
 .about__column{
-
+    display: grid;
+    grid-template-columns: 334px 1fr;
+    grid-template-rows: 240px 1fr;
+    /*align-self: center;
+    justify-self: center;*/
+    justify-items: center;
 }
 
 .about__logo{
-    grid-area: logo-column;
+    grid-column: 1;
+    grid-row: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 240px;
     height: 240px;
     background-color: rgb(0 0 0);
-    background: url(../images/logo-white.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
+    border-radius: 50%;
+    padding: 35px;
 }
 
 .about__logo-image{
-
+    width: 148px;
+    height: 114px;
 }
 
 .about__title{
-
+    padding: 100px 390px 0 0;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000;
 }
 
 .about__text{
-
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 16px;
+    padding-right: 4px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
 }
 
 .footer {
