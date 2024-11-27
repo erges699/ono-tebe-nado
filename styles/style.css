@@ -36,17 +36,16 @@
     line-height: 1.35;
 }
 
-.header__address{
+.header__address {
     justify-self: end;
 }
 
 .cover {
-    /*position: absolute;*/
     min-height: 757px;
     background: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
     z-index: -2;
 }
 
@@ -142,7 +141,7 @@
 
 .lots__card-list-item {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .card {
@@ -157,7 +156,7 @@
     background: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
     z-index: -2;
 }
 
@@ -165,7 +164,7 @@
     background: url(../images/card-lot-02.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
     z-index: -2;
 }
 
@@ -173,7 +172,7 @@
     background: url(../images/card-lot-03.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
     z-index: -2;
 }
 
