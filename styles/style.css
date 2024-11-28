@@ -2,7 +2,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
-    padding: 92px 49.48px 96px 51px;
+    padding: 92px 49.48px 94px 51px;
     color: #000;
     font-size: 18px;
 }
@@ -44,6 +44,7 @@
 
 .cover {
     min-height: 757px;
+    padding: 165px 50px 51px 50px;
     background: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -53,8 +54,6 @@
 
 .overlay {
     width: 100%;
-    padding: 165px 50px 51px 50px;
-    min-height: 757px;
     background-color: rgb(0 0 0 /.6);
     z-index: -1;
 }
