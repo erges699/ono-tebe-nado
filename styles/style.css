@@ -2,7 +2,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
-    padding: 92px 49.48px 94px 51px;
+    padding: 92px 49.48px 91px 51px;
     color: #000;
     font-size: 18px;
 }
@@ -14,7 +14,7 @@
 .header__links-list {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 33px;
     list-style: circle;
 }
 
@@ -28,12 +28,13 @@
 }
 
 .header__logo-image {
-    width: 148px;
-    height: 105px;
+    max-width: 148px;
+    max-height: 105px;
 }
 
 .address {
     align-self: center;
+    padding-right: 38px;
     font-style: normal;
     line-height: 1.35;
 }
@@ -44,7 +45,6 @@
 
 .cover {
     min-height: 757px;
-    padding: 165px 50px 51px 50px;
     background: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -59,26 +59,27 @@
 }
 
 .cover__title {
+    padding: 165px 50px 40px 51px;
     font-weight: 700;
     font-size: 100px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    line-height: 1.15;
     color: #fff;
 }
 
 .aligned-text {
     display: block;
+        line-height: 1.1;
 }
 
 .aligned-text_center {
     text-align: center;
-    /*line-height: 1.0;*/
+    line-height: 1.44;
 }
 
 .aligned-text_right {
     text-align: right;
-    /*line-height: 1.0;*/
+    line-height: 1.0;
 }
 
 .letter-spacing-extended {
@@ -90,7 +91,7 @@
 }
 
 .cover__description {
-    padding: 147px 0 0 28px;
+    padding: 86px 50px 50px 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -108,8 +109,8 @@
 
 .bet-button {
     border: 1px solid #fff;
-    width: 256px;
-    height: 51px;
+    min-width: 256px;
+    min-height: 51px;
     font-family: Raleway, sans-serif;
     font-weight: 500;
     font-size: 22px;
@@ -203,7 +204,7 @@
 
 .about {
     min-height: 595px;
-    padding: 0 24px 180px 24px;
+    padding: 35px 24px 180px 24px;
 }
 
 .about__column {
@@ -234,7 +235,7 @@
 }
 
 .about__title {
-    padding: 100px 390px 0 0;
+    padding: 100px 390px 0 10px;
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
@@ -242,6 +243,7 @@
 }
 
 .about__text {
+    padding: 8px 0 0 25px;
     display: flex;
     flex-direction: column;
     gap: 24px;
